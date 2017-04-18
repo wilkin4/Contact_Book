@@ -78,7 +78,7 @@ public class ConsoleUI {
         this.validateMenuOption();
     }
 
-    private void modifyContacMenu(){
+    private void modifyContactMenu(){
         this.clear();
 
         System.out.println("-- MODIFY CONTACT MENU --");
@@ -169,7 +169,7 @@ public class ConsoleUI {
                 this.addContactMenu();
                 break;
             case "3":
-                this.modifyContacMenu();
+                this.modifyContactMenu();
                 break;
             case "4":
                 this.deleteContactMenu();
